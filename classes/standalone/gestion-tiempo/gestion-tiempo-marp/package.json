@@ -1,0 +1,13 @@
+{
+  "name": "clase-gestion-tiempo-marp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "marp -s .",
+    "build": "marp slides.md --html --theme theme/unir-time.css -o dist/index.html && cp -r assets dist/assets",
+    "pdf": "marp slides.md --allow-local-files --html --theme theme/unir-time.css -o dist/clase-gestion-tiempo.pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.2"
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Placeholder</title>
+  <desc id="desc">A simple placeholder image for the personal website profile section.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e7ecef"/>
+      <stop offset="100%" stop-color="#d8e1e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#g)"/>
+  <circle cx="320" cy="140" r="56" fill="#a4b3bf"/>
+  <rect x="214" y="212" width="212" height="86" rx="43" fill="#a4b3bf"/>
+</svg>
